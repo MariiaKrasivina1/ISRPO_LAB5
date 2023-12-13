@@ -16,7 +16,7 @@ jobs:
       - name: Try Python
         uses: actions/setup-python@v2
         with:
-          python-version: "3.9.13"
+          python-version: "3.9"
 
       - name: action tests
         run: python action.py
